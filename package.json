@@ -1,6 +1,6 @@
 {
   "name": "stencil-cloudinary-video-player",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A WebComponent for Cloudinary Video Player",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
