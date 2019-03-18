@@ -2,6 +2,7 @@
   "name": "stencil-cloudinary-video-player",
   "version": "1.0.1",
   "description": "A WebComponent for Cloudinary Video Player",
+  "homepage": "https://github.com/rsignavong/stencil-cloudinary-video-player",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
   "unpkg": "dist/ionic.js",
@@ -21,6 +22,10 @@
   },
   "devDependencies": {
     "@stencil/core": "~0.16.2"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/rsignavong/stencil-cloudinary-video-player.git"
   },
   "license": "MIT"
 }
