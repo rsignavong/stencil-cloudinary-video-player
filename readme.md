@@ -33,7 +33,7 @@ See [accepted attributes](./src/components/cld-video/readme.md).
 
 ## Using this component
 ```
-<cld-video cloud-name="lightways" default-options="w_940,h_354,c_limit" video-id="video-123" video-title="My great video" public-id="folder/cl_public_id" width=940 height=354 crop="limit" controls></cld-video>
+<cld-video cloud-name="lightways" url-transformation="w_940,h_354,c_limit" video-id="video-123" video-title="My great video" public-id="folder/cl_public_id" width=940 height=354 crop="limit" controls></cld-video>
 ```
 
 ### Script tag
