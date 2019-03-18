@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Cloudinary Video Player</title>
+  <link href="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.css" rel="stylesheet">
+
+  <script src="https://unpkg.com/cloudinary-core/cloudinary-core-shrinkwrap.min.js" type="text/javascript"></script>
+  <script src="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.js" type="text/javascript"></script>
+
+  <script src="/build/cld-video.js"></script>
+
+</head>
+<body>
+
+  <cld-video cloud-name="cloudname" url-transformation="w_940,h_354,c_limit" video-id="video-123" video-title="My great video" public-id="folder/publid_id" width=940 height=354 crop="limit" controls></cld-video>
+
+</body>
+</html>
