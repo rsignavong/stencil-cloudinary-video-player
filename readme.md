@@ -2,7 +2,7 @@
 
 # A WebComponent for Cloudinary Video Player
 
-This WebComponent allows you to embed the Cloudinary Video Player to your application.
+This WebComponent allows you to embed the [Cloudinary Video Player](https://cloudinary.com/documentation/cloudinary_video_player) to your application.
 
 As Cloudinary Video Player third party library does not expose anything and scope directly the main object to `window`, you must include the following tags in your HTML:
 ```
