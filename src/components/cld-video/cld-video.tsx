@@ -23,7 +23,7 @@ export class CloudinaryVideoPlayer {
   @Prop() preload: string;
   @Prop() publicId: string;
   @Prop() urlTransformation: string;
-  @Prop() videoId: string;
+  @Prop() videoId: string = "cld-video";
   @Prop() videoTitle: string;
   @Prop() width: number;
 
